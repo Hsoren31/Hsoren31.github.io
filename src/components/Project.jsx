@@ -16,15 +16,19 @@ export default function Project({
           <div className="empty_img"></div>
         )}
       </div>
-      <h3>{title}</h3>
-      <ul className="languages">
-        {languages.map((language) => (
-          <li key={language}>{language}</li>
-        ))}
-      </ul>
-      <p>{description}</p>
-      {githubLink && <a href={githubLink}>GitHub Repository</a>}
-      {liveLink && <a href={liveLink}>Live Preview</a>}
+      <div className="details">
+        <h3>{title}</h3>
+        <ul className="languages">
+          {languages.map((language) => (
+            <li key={language}>{language}</li>
+          ))}
+        </ul>
+        <p>{description}</p>
+        <div className="links">
+          {githubLink && <a href={githubLink}>GitHub Repository</a>}
+          {liveLink && <a href={liveLink}>Live Preview</a>}
+        </div>
+      </div>
     </div>
   );
 }
