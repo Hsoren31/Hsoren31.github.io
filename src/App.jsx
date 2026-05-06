@@ -18,7 +18,9 @@ function App() {
       </nav>
       <main>
         <section id="About">
-          <h1>Hi, I'm Haley Sorensen</h1>
+          <h1>
+            Hi, I'm <span className="accent_color">Haley Sorensen</span>
+          </h1>
           <p>
             I'm a full stack developer with a strong interest in building modern
             web applications. I've worked with both front-end and back-end
@@ -145,7 +147,7 @@ function App() {
           </div>
         </section>
         <section id="Contact">
-          <h3>Get in Touch</h3>
+          <h3 className="accent_color">Get in Touch</h3>
           <p id="contact_links">
             <a href="mailto:sorensenhaley@gmail.com">Email</a>
             <a href="www.linkedin.com/in/haley-sorensen-1380b71b0">LinkedIn</a>
