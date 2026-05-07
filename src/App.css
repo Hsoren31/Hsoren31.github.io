@@ -7,11 +7,21 @@ main > section:last-child {
   min-height: calc(100vh - 106px);
 }
 
+#Home,
 #About {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  gap: 10px;
+}
+
+main {
+  max-width: 1280px;
+}
+
+#Home h1 {
+  font-size: 3rem;
 }
 
 .accent_color {

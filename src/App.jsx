@@ -13,22 +13,15 @@ function App() {
     <>
       <Header />
       <main>
-        <section id="About">
+        <section id="Home">
           <h1>
-            Hi, I'm <span className="accent_color">Haley Sorensen</span>
+            Hi, I'm <span className="accent_color">Haley</span>
           </h1>
           <p>
-            I'm a full stack developer with a strong interest in building modern
-            web applications. I've worked with both front-end and back-end
-            technologies to create projects that focus on usability,
-            performance, and clean design. Through my learning and hands-on
-            projects, I've developed experience working with frameworks, APIs,
-            and databases. I enjoy problem-solving and am motivated to keep
-            growing as a developer. <br />
-            I'm currently looking for opportunities where I can contribute,
-            learn from experienced developers, and continue building real-world
-            applications.
+            I'm a <span>full stack developer</span> with a strong interest in
+            building modern web applications.
           </p>
+          <p>Based in Salt Lake City, UT</p>
         </section>
         <section id="Projects">
           <h2>Projects</h2>
@@ -141,6 +134,22 @@ function App() {
               </ul>
             </div>
           </div>
+        </section>
+        <section id="About">
+          <h1>About Me</h1>
+          <p>
+            My name is Haley Sorensen. I'm a self-taught full stack developer
+            who enjoys building practical, user-focused applications and
+            continuously learning new technologies. I've worked across both
+            front-end and back-end development and enjoy the process of turning
+            ideas into functional, reliable software.
+          </p>
+          <p>
+            I love learning new things and technologies. I am always gathering
+            inspiration from games to apply to my work. I'm curious and
+            passionate am looking for opportunities to grow as a developer and
+            take on new challenges.
+          </p>
         </section>
         <section id="Contact">
           <h3 className="accent_color">Get in Touch</h3>

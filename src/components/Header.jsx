@@ -9,7 +9,9 @@ export default function Header() {
   return (
     <header>
       <div>
-        <h2>Haley</h2>
+        <h2>
+          <a href="#Home">Haley</a>
+        </h2>
       </div>
 
       <button
@@ -26,11 +28,6 @@ export default function Header() {
           className={`primary-navigation ${hamburgerOpen ? "open" : "close"}`}
         >
           <li>
-            <a href="#About" onClick={toggleHamburger}>
-              About
-            </a>
-          </li>
-          <li>
             <a href="#Projects" onClick={toggleHamburger}>
               Projects
             </a>
@@ -38,6 +35,11 @@ export default function Header() {
           <li>
             <a href="#Skills" onClick={toggleHamburger}>
               Skills
+            </a>
+          </li>
+          <li>
+            <a href="#About" onClick={toggleHamburger}>
+              About
             </a>
           </li>
           <li>
