@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header";
 import Project from "./components/Project";
 import wheresWaldo from "./assets/wheres_waldo.png";
 import inventoryApp from "./assets/inventory_app.png";
@@ -10,12 +11,7 @@ import battleship from "./assets/battleship.png";
 function App() {
   return (
     <>
-      <nav>
-        <a href="#About">About</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Contact">Contact</a>
-      </nav>
+      <Header />
       <main>
         <section id="About">
           <h1>
