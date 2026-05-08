@@ -49,7 +49,7 @@ function App() {
               title={"Inventory App"}
               languages={["Express", "NodeJS", "PostgreSQL", "EJS"]}
               description={
-                "An Inventory Management web that allows users to manage categories and items for a fictional store of video game theme. Users can perform full CRUD operations on both categories and items, view items within each category, and navigate the inventory through a simple interface."
+                "An Inventory Management web that allows users to manage categories and items for a fictional store of video game theme."
               }
               githubLink={"https://github.com/Hsoren31/inventory-app"}
               liveLink={"https://inventory-app-production-c7fd.up.railway.app/"}
@@ -60,7 +60,7 @@ function App() {
               title={"Shop Store Fake"}
               languages={["React", "React Router", "Jest"]}
               description={
-                "A React-based mock shopping cart application that simulates a simple e-commerce experience. Users can browse products from an external API, add items to their cart, and manage quantites with real-time updates. The project highlights routing, state management, testing, and clean component design within a single-page application."
+                "A React-based mock shopping cart application that simulates a simple e-commerce experience."
               }
               githubLink={"https://github.com/Hsoren31/shopping-cart-app"}
               liveLink={"https://shopping-cart-app-delta-six.vercel.app/home"}
@@ -98,7 +98,7 @@ function App() {
               title={"Battleship"}
               languages={["JavaScript", "Webpack", "Jest"]}
               description={
-                "A browser-based Battleship game built with Test-Driven Development, featuring modular game logic, unit-tested functionality, and an interactive UI where a player competes against a computer in turn-based gameplay."
+                "A browser-based Battleship game where a player competes against a computer in a turn-based gameplay."
               }
               githubLink={"https://github.com/Hsoren31/battleship"}
               liveLink={"https://hsoren31.github.io/battleship/"}

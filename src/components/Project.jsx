@@ -1,3 +1,6 @@
+import githubLogo from "../assets/github.svg";
+import viewLiveIcon from "../assets/view-live.svg";
+
 export default function Project({
   imgSrc,
   imgAlt,
@@ -25,8 +28,18 @@ export default function Project({
         </ul>
         <p>{description}</p>
         <div className="links">
-          {githubLink && <a href={githubLink}>GitHub Repository</a>}
-          {liveLink && <a href={liveLink}>Live Preview</a>}
+          {githubLink && (
+            <a href={githubLink}>
+              GitHub
+              <img src={githubLogo} alt="Github Logo" />
+            </a>
+          )}
+          {liveLink && (
+            <a href={liveLink}>
+              Live Preview
+              <img src={viewLiveIcon} alt="View Live" />
+            </a>
+          )}
         </div>
       </div>
     </div>
