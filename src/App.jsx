@@ -135,28 +135,41 @@ function App() {
             </div>
           </div>
         </section>
-        <section id="About">
-          <h1>About Me</h1>
-          <p>
-            My name is Haley Sorensen. I'm a self-taught full stack developer
-            who enjoys building practical, user-focused applications and
-            continuously learning new technologies. I've worked across both
-            front-end and back-end development and enjoy the process of turning
-            ideas into functional, reliable software.
-          </p>
-          <p>
-            I love learning new things and technologies. I am always gathering
-            inspiration from games to apply to my work. I'm curious and
-            passionate am looking for opportunities to grow as a developer and
-            take on new challenges.
-          </p>
-        </section>
-        <section id="Contact">
-          <h3 className="accent_color">Get in Touch</h3>
-          <p id="contact_links">
-            <a href="mailto:sorensenhaley@gmail.com">Email</a>
-            <a href="www.linkedin.com/in/haley-sorensen-1380b71b0">LinkedIn</a>
-          </p>
+        <section id="about-contact">
+          <div id="About">
+            <h2>About Me</h2>
+            <p>
+              I'm Haley Sorensen. A self-taught full-stack developer with a
+              strong passion for building and learning. I build clean,
+              user-friendly websites. I've developed my skills through hours of
+              learning, experimenting, and building projects thanks to the Odin
+              Project.
+            </p>
+            <p>
+              I enjoy working on both front-end and back-end development. I'm
+              driven by curiosity, and challenging myself to improve. I am
+              currently looking for opportunities to gain real-world experience,
+              collaborate with other developers, and continue building impactful
+              projects.
+            </p>
+          </div>
+          <div id="Contact">
+            <div className="contact-header">
+              <h2>Contact Me</h2>
+              <h3 className="accent_color">Let's get in touch</h3>
+            </div>
+            <p id="contact-links">
+              <a
+                className="email-contact"
+                href="mailto:sorensenhaley@gmail.com"
+              >
+                sorensenhaley@gmail.com
+              </a>
+              <a href="www.linkedin.com/in/haley-sorensen-1380b71b0">
+                LinkedIn
+              </a>
+            </p>
+          </div>
         </section>
       </main>
       <footer>

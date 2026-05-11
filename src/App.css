@@ -7,8 +7,7 @@ main > section:last-child {
   min-height: calc(100vh - 106px);
 }
 
-#Home,
-#About {
+#Home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,14 +119,56 @@ main {
   gap: 10px;
 }
 
-#Contact {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+#about-contact {
+  display: grid;
+  gap: 3em;
+  align-content: center;
+  justify-content: center;
 }
 
-#contact_links {
+#About,
+#Contact,
+#contact-links {
   display: grid;
-  grid-template-columns: 1fr;
-  align-items: start;
+}
+
+#About p {
+  padding-top: 1em;
+}
+
+#Contact {
+  justify-content: end;
+  text-align: end;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+#contact-links {
+  justify-items: end;
+}
+
+#contact-links a {
+  max-width: fit-content;
+}
+
+.email-contact {
+  text-decoration: underline;
+  font-family: var(--ff-accent);
+  font-style: italic;
+}
+
+@media screen and (min-width: 840px) {
+  #about-contact {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  #About {
+    margin-bottom: 5em;
+  }
+
+  #Contact {
+    align-content: end;
+  }
 }
