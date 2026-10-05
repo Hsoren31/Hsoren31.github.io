@@ -6,20 +6,55 @@
   --clr-accent: #b2675e;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
   background-color: var(--clr-bg);
   color: var(--clr-text);
 }
 
-a {
-  font: inherit;
-  color: var(--clr-text);
-  text-decoration: none;
+img,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
-section {
-  background-color: var(--clr-surface);
-  padding: 1em;
+button {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+a {
+  color: var(--clr-text);
+  text-decoration: none;
 }
 
 section#contact {
