@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <div>
         <h2>
-          <a href="#Home">Haley</a>
+          <a href="#Home">Haley Sorensen</a>
         </h2>
       </div>
 
@@ -28,23 +28,23 @@ export default function Header() {
           className={`primary-navigation ${hamburgerOpen ? "open" : "close"}`}
         >
           <li>
-            <a href="#Projects" onClick={toggleHamburger}>
+            <a href="#projects" onClick={toggleHamburger}>
               Projects
             </a>
           </li>
           <li>
-            <a href="#Skills" onClick={toggleHamburger}>
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href="#About" onClick={toggleHamburger}>
+            <a href="#about" onClick={toggleHamburger}>
               About
             </a>
           </li>
           <li>
-            <a href="#Contact" onClick={toggleHamburger}>
-              Contact
+            <a href="#skills" onClick={toggleHamburger}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={toggleHamburger}>
+              Get in Touch
             </a>
           </li>
         </ul>
