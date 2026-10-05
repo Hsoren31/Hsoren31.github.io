@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="about">
+    <section id="about">
       <h2>A little about me</h2>
       <p>
         I taught myself web development, and I stuck with it because I love the
@@ -30,6 +30,6 @@ export default function About() {
           <p>I aim for interfaces that are clean, friendly, and easy to use.</p>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }

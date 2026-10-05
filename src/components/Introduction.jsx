@@ -3,7 +3,7 @@ import skills from "../../data/skills";
 
 export default function Introduction() {
   return (
-    <div id="introduction">
+    <section id="introduction">
       <h1>
         Hi, I'm Haley. I build web apps from a <u>blank page</u>.
       </h1>
@@ -44,6 +44,6 @@ export default function Introduction() {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }

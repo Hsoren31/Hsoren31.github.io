@@ -2,7 +2,7 @@ import skills from "../../data/skills";
 
 export default function Skills() {
   return (
-    <div id="skills">
+    <section id="skills">
       <h2>What I work with</h2>
       <div>
         <strong>Front end</strong>
@@ -28,6 +28,6 @@ export default function Skills() {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
