@@ -8,11 +8,9 @@ export default function Header() {
 
   return (
     <header>
-      <div>
-        <h2>
-          <a href="#Home">Haley Sorensen</a>
-        </h2>
-      </div>
+      <h2>
+        <a href="#Home">Haley Sorensen</a>
+      </h2>
 
       <button
         className="mobile-nav-toggle"
