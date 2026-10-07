@@ -1,0 +1,35 @@
+section#skills {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+section#skills > h2 {
+  grid-column: 1 / -1;
+}
+
+.skill-group {
+  display: grid;
+  gap: 0.5rem;
+
+  strong {
+    text-transform: uppercase;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    li {
+      padding: 0.3em 1em;
+      border: 1px solid var(--clr-text);
+      border-radius: 2em;
+      text-wrap: nowrap;
+      font-size: 14px;
+      background-color: var(--clr-surface-1);
+    }
+  }
+}
