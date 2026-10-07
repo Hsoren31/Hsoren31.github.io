@@ -8,7 +8,7 @@ export default [
     techStack: ["React", "React Router", "Node.js", "Express", "Prisma", "JWT"],
     liveLink: "https://blog-ten-tan-16.vercel.app",
     githubLink: "https://github.com/Hsoren31/blog-api",
-    imgUrl: null,
+    imgUrl: "/assets/blog-screenshot.png",
   },
   {
     title: "File Uploader",
@@ -19,7 +19,7 @@ export default [
     techStack: ["Express", "Prisma", "Passport.js", "Multer", "Cloudinary"],
     liveLink: "https://fileuploader-production-5183.up.railway.app",
     githubLink: "https://github.com/Hsoren31/file_uploader",
-    imgUrl: null,
+    imgUrl: "/assets/file-uploader.png",
   },
   {
     title: "Inventory App",
@@ -29,6 +29,6 @@ export default [
     techStack: ["Node.js", "Express", "PostgreSQL", "EJS", "CSS"],
     liveLink: "https://inventory-app-production-c7fd.up.railway.app/",
     githubLink: "https://github.com/Hsoren31/inventory-app",
-    imgUrl: null,
+    imgUrl: "/assets/inventory-app.png",
   },
 ];

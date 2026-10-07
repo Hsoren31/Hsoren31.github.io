@@ -82,7 +82,7 @@
   background-repeat: no-repeat;
 }
 
-#projects {
+#introduction > #projects {
   display: grid;
 
   ul {

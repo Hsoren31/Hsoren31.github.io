@@ -1,6 +1,6 @@
 import projects from "../../data/projects.js";
 import ProjectItem from "./ProjectItem.jsx";
-
+import "../styles/projects.css";
 export default function Projects() {
   return (
     <section id="projects">

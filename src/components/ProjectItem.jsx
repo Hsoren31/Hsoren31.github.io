@@ -13,8 +13,12 @@ export default function ProjectItem({ project }) {
         ))}
       </ul>
       <div className="links">
-        <a href={project.liveLink}>Live Demo</a>
-        <a href={project.githubLink}>View Code</a>
+        <a className="project-link project-live" href={project.liveLink}>
+          Live Demo
+        </a>
+        <a className="project-link " href={project.githubLink}>
+          View Code
+        </a>
       </div>
       <img src={project.imgUrl} />
     </div>
