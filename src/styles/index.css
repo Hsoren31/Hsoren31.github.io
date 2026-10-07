@@ -1,9 +1,11 @@
 :root {
   /* COLORS*/
   --clr-text: #deebe5;
-  --clr-bg: #02180c;
-  --clr-surface: #172b21;
-  --clr-accent: #b2675e;
+  --clr-surface-1: #172b21;
+  --clr-surface-2: #081d12;
+  --clr-surface-3: #02180c;
+  --clr-surface-4: #769c89;
+  --clr-accent: #dc8076;
 }
 
 *,
@@ -19,7 +21,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--clr-bg);
+  background-color: var(--clr-surface-2);
   color: var(--clr-text);
 }
 
@@ -68,7 +70,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 5;
-  background-color: var(--clr-bg);
+  background-color: var(--clr-surface-2);
   padding: 8px;
 }
 
@@ -128,6 +130,21 @@ header > h2 {
   }
 }
 
+main {
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
 section#contact {
   background-color: var(--clr-accent);
+}
+
+footer {
+  font-size: 12px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
