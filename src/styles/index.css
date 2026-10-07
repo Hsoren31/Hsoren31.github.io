@@ -139,6 +139,24 @@ main {
 
 section#contact {
   background-color: var(--clr-accent);
+  border: 1px solid var(--clr-text);
+  border-radius: 1em;
+  padding: 2rem;
+  color: var(--clr-surface-3);
+  display: grid;
+  gap: 0.5rem;
+}
+
+section#contact > div.links {
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  background-color: var(--clr-surface-2);
+  padding: 0.2em 1em;
+  border-radius: 2em;
+  border: 2px solid var(--clr-text);
+  box-shadow: 2px 2px 1px 0 var(--clr-surface-3);
 }
 
 footer {

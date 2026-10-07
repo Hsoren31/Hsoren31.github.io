@@ -6,9 +6,17 @@ export default function Contact() {
         I'd love to hear about your team and what you're working on. Send me a
         note.
       </p>
-      <a href="mailto:sorensenhaley@gmail.com">Email</a>
-      <a href="www.linkedin.com/in/haleysorensen">LinkedIn</a>
-      <a href="https://github.com/Hsoren31">GitHub</a>
+      <div className="links">
+        <a className="contact-link" href="mailto:sorensenhaley@gmail.com">
+          Email
+        </a>
+        <a className="contact-link" href="www.linkedin.com/in/haleysorensen">
+          LinkedIn
+        </a>
+        <a className="contact-link" href="https://github.com/Hsoren31">
+          GitHub
+        </a>
+      </div>
     </section>
   );
 }
