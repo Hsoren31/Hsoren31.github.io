@@ -1,3 +1,5 @@
+import "../styles/about.css";
+
 export default function About() {
   return (
     <section id="about">
@@ -6,7 +8,8 @@ export default function About() {
         I taught myself web development, and I stuck with it because I love the
         moment when a blank page turns into something people can use. I build
         the whole thing, from the database to the buttons.
-        <br />
+      </p>
+      <p>
         I'm looking for my first developer role on a team where I can keep
         learning and help create something great.
       </p>

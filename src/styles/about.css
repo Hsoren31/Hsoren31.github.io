@@ -1,0 +1,21 @@
+section#about {
+  display: grid;
+  gap: 1rem;
+}
+
+section#about > ul {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+
+  li {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--clr-text);
+  }
+
+  li:first-child {
+    border-top: 2px solid var(--clr-text);
+    padding-top: 1rem;
+  }
+}
