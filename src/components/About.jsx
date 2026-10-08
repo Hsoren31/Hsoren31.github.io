@@ -3,16 +3,18 @@ import "../styles/about.css";
 export default function About() {
   return (
     <section id="about">
-      <h2>A little about me</h2>
-      <p>
-        I taught myself web development, and I stuck with it because I love the
-        moment when a blank page turns into something people can use. I build
-        the whole thing, from the database to the buttons.
-      </p>
-      <p>
-        I'm looking for my first developer role on a team where I can keep
-        learning and help create something great.
-      </p>
+      <div className="about-column">
+        <h2>A little about me</h2>
+        <p>
+          I taught myself web development, and I stuck with it because I love
+          the moment when a blank page turns into something people can use. I
+          build the whole thing, from the database to the buttons.
+        </p>
+        <p>
+          I'm looking for my first developer role on a team where I can keep
+          learning and help create something great.
+        </p>
+      </div>
       <ul>
         <li>
           <h3>One feature at a time</h3>

@@ -1,6 +1,12 @@
 section#about {
   display: grid;
   gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+}
+
+div.about-column {
+  display: grid;
+  gap: 1rem;
 }
 
 section#about > ul {
@@ -17,5 +23,11 @@ section#about > ul {
   li:first-child {
     border-top: 2px solid var(--clr-text);
     padding-top: 1rem;
+  }
+}
+
+@media (min-width: 790px) {
+  section#about {
+    gap: 3rem;
   }
 }
