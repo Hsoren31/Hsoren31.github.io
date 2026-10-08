@@ -1,7 +1,6 @@
 #projects {
   display: grid;
   gap: 2rem;
-  margin-bottom: 4rem;
 }
 
 #projects > ul {
@@ -11,6 +10,21 @@
 }
 
 div.project {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+}
+
+/* Swap column lines on even children */
+@media (min-width: 796px) {
+  div.project:nth-child(even) .project-column {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+div.project-column {
   display: grid;
   gap: 1rem;
 }
@@ -49,8 +63,15 @@ a.project-live {
   color: var(--clr-surface-2);
 }
 
+div.frame {
+  padding: 1em;
+  background-color: hsl(from var(--clr-surface-4) h s l / 0.8);
+  border-radius: 1em;
+}
+
 img {
   background-color: var(--clr-surface-1);
   border-radius: 8px;
-  border: 1px solid var(--clr-text);
+  border: 2px solid var(--clr-text);
+  box-shadow: 5px 5px 0 1px var(--clr-surface-3);
 }
