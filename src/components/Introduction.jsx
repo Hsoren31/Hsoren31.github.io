@@ -5,22 +5,25 @@ import "../styles/introduction.css";
 export default function Introduction() {
   return (
     <section id="introduction">
-      <h1>
-        Hi, I'm Haley. I build web apps from a <u>blank page</u>.
-      </h1>
-      <p>
-        I'm a self-taught full stack developer. I got into web development by
-        coincidence and fell in love with taking an idea from nothing to a
-        deployed app. I like simple, good-looking interfaces backed by solid
-        APIs.
-      </p>
-      <div className="links">
-        <a className="projects navigation" href="#projects">
-          See my projects
-        </a>
-        <a className="contact navigation" href="#contact">
-          Say hello
-        </a>
+      <div className="column">
+        <h1>
+          Hi, I'm Haley. I build web apps from a{" "}
+          <u className="underline-highlight">blank page</u>.
+        </h1>
+        <p>
+          I'm a self-taught full stack developer. I got into web development by
+          coincidence and fell in love with taking an idea from nothing to a
+          deployed app. I like simple, good-looking interfaces backed by solid
+          APIs.
+        </p>
+        <div className="links">
+          <a className="projects navigation" href="#projects">
+            See my projects
+          </a>
+          <a className="contact navigation" href="#contact">
+            Say hello
+          </a>
+        </div>
       </div>
       <div id="webpage">
         <div className="title-bar">
@@ -39,7 +42,7 @@ export default function Introduction() {
               {projects.map((project) => (
                 <li>
                   <strong>{project.title}</strong>
-                  <a href={project.liveLink}>live</a>
+                  <p className="webpage-live">live</p>
                 </li>
               ))}
             </ul>

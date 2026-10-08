@@ -5,7 +5,7 @@
   --clr-surface-2: #081d12;
   --clr-surface-3: #02180c;
   --clr-surface-4: #769c89;
-  --clr-accent: #dc8076;
+  --clr-accent: #ea9e8d;
 
   /* FONT-SIZE */
   --fs-sm: 0.875rem;
@@ -149,9 +149,16 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 clamp(1rem, 4vw, 4rem);
   display: grid;
-  gap: 2rem;
+  gap: 4rem;
+}
+
+@media (max-width: 560px) {
+  main {
+    padding: 2rem clamp(1rem, 4vw, 4rem);
+    gap: 4rem;
+  }
 }
 
 section#contact {
