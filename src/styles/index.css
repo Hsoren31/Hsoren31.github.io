@@ -6,6 +6,14 @@
   --clr-surface-3: #02180c;
   --clr-surface-4: #769c89;
   --clr-accent: #dc8076;
+
+  /* FONT-SIZE */
+  --fs-sm: 0.875rem;
+  --fs-base: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --fs-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.375rem);
+  --fs-h3: clamp(1.25rem, 1.1rem + 0.75vw, 1.625rem);
+  --fs-h2: clamp(1.5rem, 1.25rem + 1.25vw, 2.25rem);
+  --fs-h1: clamp(2rem, 1.5rem + 2.5vw, 3.5rem);
 }
 
 *,
@@ -23,6 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: var(--clr-surface-2);
   color: var(--clr-text);
+  font-size: var(--fs-base);
 }
 
 img,
@@ -58,6 +67,18 @@ h6 {
   text-wrap: balance;
 }
 
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
 a {
   color: var(--clr-text);
   text-decoration: none;
@@ -72,10 +93,6 @@ header {
   z-index: 5;
   background-color: var(--clr-surface-2);
   padding: 8px;
-}
-
-header > h2 {
-  font-size: 2rem;
 }
 
 .mobile-nav-toggle {
@@ -160,7 +177,7 @@ section#contact > div.links {
 }
 
 footer {
-  font-size: 12px;
+  font-size: var(--fs-sm);
   padding: 16px;
   display: flex;
   flex-wrap: wrap;

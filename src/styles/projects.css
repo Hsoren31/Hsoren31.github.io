@@ -33,7 +33,7 @@ ul.tech-stack {
   padding: 0.3em 0.8em;
   border-radius: 1em;
   border: 1px solid var(--clr-text);
-  font-size: 12px;
+  font-size: var(--fs-sm);
 }
 
 a.project-link {

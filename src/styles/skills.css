@@ -28,7 +28,7 @@ section#skills > h2 {
       border: 1px solid var(--clr-text);
       border-radius: 2em;
       text-wrap: nowrap;
-      font-size: 14px;
+      font-size: var(--fs-sm);
       background-color: var(--clr-surface-1);
     }
   }

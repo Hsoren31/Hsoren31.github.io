@@ -105,5 +105,5 @@ div#webpage-projects {
   display: flex;
   gap: 0.5rem;
   list-style: none;
-  font-size: 12px;
+  font-size: var(--fs-sm);
 }
