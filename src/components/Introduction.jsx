@@ -34,7 +34,7 @@ export default function Introduction() {
               <p>Full Stack Web Developer</p>
             </div>
           </div>
-          <div id="projects">
+          <div id="webpage-projects">
             <ul>
               {projects.map((project) => (
                 <li>
