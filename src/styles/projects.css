@@ -48,6 +48,8 @@ ul.tech-stack {
   border-radius: 1em;
   border: 1px solid var(--clr-text);
   font-size: var(--fs-sm);
+  font-family: var(--ff-code);
+  color: var(--clr-text);
 }
 
 a.project-link {

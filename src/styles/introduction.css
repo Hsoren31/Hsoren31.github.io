@@ -52,6 +52,8 @@ u.underline-highlight {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-family: var(--ff-code);
+  font-size: var(--fs-sm);
 }
 
 .title-bar > p::before {
@@ -114,12 +116,18 @@ p.webpage-live::before {
   color: limegreen;
 }
 
+p.webpage-live {
+  font-family: var(--ff-code);
+  font-size: var(--fs-sm);
+}
+
 #tech-stack > ul {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   font-size: var(--fs-sm);
+  font-family: var(--ff-code);
   flex-wrap: wrap;
 
   li:not(:first-child)::before {
