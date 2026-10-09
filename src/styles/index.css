@@ -158,15 +158,14 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 0 clamp(1rem, 4vw, 4rem);
+  padding: 2rem clamp(1rem, 4vw, 4rem);
   display: grid;
   gap: 4rem;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 1440px) {
   main {
-    padding: 2rem clamp(1rem, 4vw, 4rem);
-    gap: 4rem;
+    max-width: 80vw;
   }
 }
 
