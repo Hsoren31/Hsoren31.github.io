@@ -1,8 +1,9 @@
 #introduction {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(430px, 100%), 1fr));
   align-items: center;
+  padding: clamp(0, 3vw, 6rem);
 }
 
 div.column {
@@ -136,8 +137,8 @@ p.webpage-live {
   }
 }
 
-@media (min-width: 350px) {
+@media (min-width: 900px) {
   section#introduction {
-    min-height: calc(100vh - 3rem);
+    min-height: calc(100vh - 10rem);
   }
 }
