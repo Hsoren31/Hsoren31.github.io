@@ -163,9 +163,9 @@ main {
 
 section#contact {
   background-color: var(--clr-accent);
-  border: 1px solid var(--clr-text);
+  border: 3px solid var(--clr-text);
   border-radius: 1em;
-  padding: 2rem;
+  padding: clamp(2rem, 4vw, 4rem);
   color: var(--clr-surface-3);
   display: grid;
   gap: 0.5rem;
@@ -181,6 +181,19 @@ section#contact > div.links {
   border-radius: 2em;
   border: 2px solid var(--clr-text);
   box-shadow: 2px 2px 1px 0 var(--clr-surface-3);
+}
+
+@media (min-width: 760px) {
+  section#contact {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  section#contact > div.links {
+    flex-direction: column;
+    align-items: end;
+  }
 }
 
 footer {
