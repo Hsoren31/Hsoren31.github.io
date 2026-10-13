@@ -17,10 +17,10 @@ export default function Introduction() {
           APIs.
         </p>
         <div className="links">
-          <a className="projects navigation" href="#projects">
+          <a className="projects navigation pill-link" href="#projects">
             See my projects
           </a>
-          <a className="contact navigation" href="#contact">
+          <a className="contact navigation pill-link" href="#contact">
             Say hello
           </a>
         </div>

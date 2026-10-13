@@ -23,19 +23,6 @@ u.underline-highlight {
   gap: 1rem;
 }
 
-.navigation {
-  background-color: var(--clr-surface);
-  padding: 0.6em 1em;
-  font-weight: 600;
-  border: 1px solid var(--clr-text);
-  border-radius: 2em;
-}
-
-.projects.navigation {
-  background-color: var(--clr-accent);
-  color: var(--clr-surface-2);
-}
-
 #webpage {
   max-height: fit-content;
   border-radius: 1em;

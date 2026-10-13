@@ -14,10 +14,13 @@ export default function ProjectItem({ project }) {
           ))}
         </ul>
         <div className="links">
-          <a className="project-link project-live" href={project.liveLink}>
+          <a
+            className="project-link project-live pill-link"
+            href={project.liveLink}
+          >
             Live Demo
           </a>
-          <a className="project-link " href={project.githubLink}>
+          <a className="project-link pill-link" href={project.githubLink}>
             View Code
           </a>
         </div>

@@ -52,19 +52,6 @@ ul.tech-stack {
   color: var(--clr-text);
 }
 
-a.project-link {
-  background-color: var(--clr-surface-1);
-  padding: 0.5em 1em;
-  border: 1px solid var(--clr-text);
-  border-radius: 2em;
-  font-weight: 600;
-}
-
-a.project-live {
-  background-color: var(--clr-accent);
-  color: var(--clr-surface-2);
-}
-
 div.frame {
   padding: 1em;
   background-color: hsl(from var(--clr-surface-4) h s l / 0.8);

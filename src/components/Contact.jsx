@@ -9,13 +9,22 @@ export default function Contact() {
         </p>
       </div>
       <div className="links">
-        <a className="contact-link" href="mailto:sorensenhaley@gmail.com">
+        <a
+          className="contact-link pill-link"
+          href="mailto:sorensenhaley@gmail.com"
+        >
           Email
         </a>
-        <a className="contact-link" href="www.linkedin.com/in/haleysorensen">
+        <a
+          className="contact-link pill-link"
+          href="www.linkedin.com/in/haleysorensen"
+        >
           LinkedIn
         </a>
-        <a className="contact-link" href="https://github.com/Hsoren31">
+        <a
+          className="contact-link pill-link"
+          href="https://github.com/Hsoren31"
+        >
           GitHub
         </a>
       </div>

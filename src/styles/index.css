@@ -93,6 +93,22 @@ a {
   text-decoration: none;
 }
 
+.pill-link {
+  padding: 0.5em 1em;
+  border: 1px solid var(--clr-text);
+  border-radius: 2em;
+  background-color: var(--clr-surface-1);
+
+  box-shadow: 3px 3px 0 var(--clr-surface-3);
+  transform: translate(0px, 0px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pill-link:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 0 var(--clr-surface-3);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -192,14 +208,6 @@ section#contact {
 
 section#contact > div.links {
   flex-wrap: wrap;
-}
-
-.contact-link {
-  background-color: var(--clr-surface-2);
-  padding: 0.2em 1em;
-  border-radius: 2em;
-  border: 2px solid var(--clr-text);
-  box-shadow: 2px 2px 1px 0 var(--clr-surface-3);
 }
 
 @media (min-width: 760px) {
