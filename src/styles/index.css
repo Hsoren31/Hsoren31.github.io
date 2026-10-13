@@ -2,10 +2,11 @@
   /* COLORS*/
   --clr-text: #eff6f3;
   --clr-text-2: #afd5c3;
-  --clr-surface-1: #172b21;
-  --clr-surface-2: #081d12;
-  --clr-surface-3: #02180c;
-  --clr-surface-4: #769c89;
+
+  --clr-bg-subtle: #172b21;
+  --clr-bg: #081d12;
+  --clr-bg-dark: #02180c;
+  --clr-bg-muted: #769c89;
   --clr-accent: #ea9e8d;
 
   /* FONT-SIZE */
@@ -35,7 +36,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--clr-surface-2);
+  background-color: var(--clr-bg);
   color: var(--clr-text);
   font-size: var(--fs-base);
   font-family: var(--ff-base);
@@ -97,16 +98,16 @@ a {
   padding: 0.5em 1em;
   border: 1px solid var(--clr-text);
   border-radius: 2em;
-  background-color: var(--clr-surface-1);
+  background-color: var(--clr-bg-subtle);
 
-  box-shadow: 3px 3px 0 var(--clr-surface-3);
+  box-shadow: 3px 3px 0 var(--clr-bg-dark);
   transform: translate(0px, 0px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pill-link:hover {
   transform: translate(-3px, -3px);
-  box-shadow: 5px 5px 0 var(--clr-surface-3);
+  box-shadow: 5px 5px 0 var(--clr-bg-dark);
 }
 
 header {
@@ -116,7 +117,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 5;
-  background-color: var(--clr-surface-2);
+  background-color: var(--clr-bg);
   padding: 8px;
 }
 
@@ -197,12 +198,12 @@ section#contact {
   border: 3px solid var(--clr-text);
   border-radius: 1em;
   padding: clamp(2rem, 4vw, 4rem);
-  color: var(--clr-surface-3);
+  color: var(--clr-text);
   display: grid;
   gap: 0.5rem;
 
   p {
-    color: var(--clr-surface-3);
+    color: var(--clr-text-2);
   }
 }
 

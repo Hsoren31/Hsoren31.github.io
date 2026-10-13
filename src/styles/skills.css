@@ -37,7 +37,7 @@ div.skills {
       text-wrap: nowrap;
       font-size: var(--fs-sm);
       font-family: var(--ff-code);
-      background-color: var(--clr-surface-1);
+      background-color: var(--clr-bg-subtle);
     }
   }
 }

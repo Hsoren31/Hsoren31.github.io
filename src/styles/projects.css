@@ -43,7 +43,7 @@ ul.tech-stack {
 }
 
 .tech-stack > p {
-  background-color: var(--clr-surface-1);
+  background-color: var(--clr-bg-subtle);
   padding: 0.3em 0.8em;
   border-radius: 1em;
   border: 1px solid var(--clr-text);
@@ -54,13 +54,13 @@ ul.tech-stack {
 
 div.frame {
   padding: 1em;
-  background-color: hsl(from var(--clr-surface-4) h s l / 0.8);
+  background-color: hsl(from var(--clr-bg-subtle) h s l / 0.8);
   border-radius: 1em;
 }
 
 img {
-  background-color: var(--clr-surface-1);
+  background-color: var(--clr-accent);
   border-radius: 8px;
   border: 2px solid var(--clr-text);
-  box-shadow: 5px 5px 0 1px var(--clr-surface-3);
+  box-shadow: 5px 5px 0 1px var(--clr-bg-dark);
 }

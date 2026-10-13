@@ -33,7 +33,7 @@ u.underline-highlight {
   border-bottom: 2px solid var(--clr-text);
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
-  background-color: var(--clr-surface-3);
+  background-color: var(--clr-bg-dark);
 }
 
 .title-bar > p {
@@ -59,7 +59,7 @@ u.underline-highlight {
   padding: 1em;
   display: grid;
   gap: 1em;
-  background-color: var(--clr-surface-1);
+  background-color: var(--clr-bg-subtle);
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
@@ -71,7 +71,7 @@ u.underline-highlight {
 }
 
 #profile-picture {
-  background-color: var(--clr-surface-4);
+  background-color: var(--clr-bg-muted);
   border: 2px dashed var(--clr-text);
   border-radius: 100%;
   min-width: 6rem;
