@@ -133,6 +133,20 @@ header {
   text-decoration-thickness: 0.1em;
 }
 
+.header-link.contact {
+  border: 1px solid var(--clr-text);
+  padding: 0.3em 0.75em;
+  border-radius: 2em;
+
+  transition: 0.3s ease padding, 0.3s ease border-color;
+}
+
+.header-link.contact:hover {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-color: var(--clr-accent);
+}
+
 .mobile-nav-toggle {
   display: none;
 }
