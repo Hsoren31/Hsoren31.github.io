@@ -3,13 +3,13 @@
 <style>
   /* Default color for Light Mode */
   .icon-path {
-    fill: #02180c;
+    fill: #283618;
   }
 
   /* Color switch for Dark Mode */
   @media (prefers-color-scheme: dark){
     .icon-path {
-      fill: #769c89;
+      fill: #afb38c;
     }
   }
 </style>

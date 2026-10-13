@@ -1,13 +1,14 @@
 :root {
   /* COLORS*/
-  --clr-text: #eff6f3;
-  --clr-text-2: #afd5c3;
+  --clr-text: #fefae0;
+  --clr-text-2: #eceacf;
 
-  --clr-bg-subtle: #172b21;
-  --clr-bg: #081d12;
-  --clr-bg-dark: #02180c;
-  --clr-bg-muted: #769c89;
-  --clr-accent: #ea9e8d;
+  --clr-bg: #283618;
+  --clr-bg-subtle: #606c38;
+  --clr-bg-muted: #afb38c;
+  --clr-bg-dark: #151c0d;
+
+  --clr-accent: #bc6c25;
 
   /* FONT-SIZE */
   --fs-sm: 0.875rem;
