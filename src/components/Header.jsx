@@ -26,22 +26,30 @@ export default function Header() {
           className={`primary-navigation ${hamburgerOpen ? "open" : "close"}`}
         >
           <li>
-            <a href="#projects" onClick={toggleHamburger}>
+            <a
+              className="header-link"
+              href="#projects"
+              onClick={toggleHamburger}
+            >
               Projects
             </a>
           </li>
           <li>
-            <a href="#about" onClick={toggleHamburger}>
+            <a className="header-link" href="#about" onClick={toggleHamburger}>
               About
             </a>
           </li>
           <li>
-            <a href="#skills" onClick={toggleHamburger}>
+            <a className="header-link" href="#skills" onClick={toggleHamburger}>
               Skills
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={toggleHamburger}>
+            <a
+              className="header-link contact"
+              href="#contact"
+              onClick={toggleHamburger}
+            >
               Get in Touch
             </a>
           </li>

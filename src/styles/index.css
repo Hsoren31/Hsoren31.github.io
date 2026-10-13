@@ -104,6 +104,13 @@ header {
   padding: 8px;
 }
 
+.header-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--clr-accent);
+  text-underline-offset: 0.4em;
+  text-decoration-thickness: 0.1em;
+}
+
 .mobile-nav-toggle {
   display: none;
 }
