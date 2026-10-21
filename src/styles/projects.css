@@ -58,7 +58,7 @@ div.frame {
   border-radius: 1em;
 }
 
-img {
+.frame img {
   background-color: var(--clr-accent);
   border-radius: 8px;
   border: 2px solid var(--clr-text);
