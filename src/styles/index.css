@@ -126,6 +126,10 @@ header {
   padding: 8px;
 }
 
+.header-link {
+  text-wrap: nowrap;
+}
+
 .header-link:hover {
   text-decoration: underline;
   text-decoration-color: var(--clr-accent);
@@ -163,7 +167,7 @@ header {
   backdrop-filter: blur(1rem);
 }
 
-@media (max-width: 460px) {
+@media (max-width: 530px) {
   .primary-navigation {
     position: fixed;
     z-index: 1111;
