@@ -11,10 +11,9 @@ export default function Introduction() {
           <u className="underline-highlight">blank page</u>.
         </h1>
         <p>
-          I'm a self-taught full stack developer. I got into web development by
-          coincidence and fell in love with taking an idea from nothing to a
-          deployed app. I like simple, good-looking interfaces backed by solid
-          APIs.
+          I'm a self-taught full stack developer. I fell in love with web
+          development by taking an idea from nothing to a deployed app. I like
+          simple, good-looking interfaces backed by solid APIs.
         </p>
         <div className="links">
           <a className="projects navigation pill-link" href="#projects">
