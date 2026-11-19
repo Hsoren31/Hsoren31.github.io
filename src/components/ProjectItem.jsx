@@ -19,6 +19,7 @@ export default function ProjectItem({ project }) {
               <a
                 className="project-link project-live pill-link"
                 href={link.url}
+                target="_blank"
               >
                 {link.title}
               </a>
@@ -27,11 +28,16 @@ export default function ProjectItem({ project }) {
             <a
               className="project-link project-live pill-link"
               href={project.liveLink}
+              target="_blank"
             >
               Live Demo
             </a>
           )}
-          <a className="project-link pill-link" href={project.githubLink}>
+          <a
+            className="project-link pill-link"
+            href={project.githubLink}
+            target="_blank"
+          >
             View Code
           </a>
         </div>
