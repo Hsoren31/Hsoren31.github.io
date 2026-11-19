@@ -6,7 +6,16 @@ export default [
       "Includes JWT authentication, validation middleware, tags, and author profiles.",
     ],
     techStack: ["React", "React Router", "Node.js", "Express", "Prisma", "JWT"],
-    liveLink: "https://blog-ten-tan-16.vercel.app",
+    liveLink: [
+      {
+        title: "Blog",
+        url: "https://blog-ten-tan-16.vercel.app",
+      },
+      {
+        title: "Blog Author",
+        url: "https://blog-author-two.vercel.app",
+      },
+    ],
     githubLink: "https://github.com/Hsoren31/blog-api",
     imgUrl: "/assets/blog-api.webp",
   },

@@ -14,12 +14,23 @@ export default function ProjectItem({ project }) {
           ))}
         </ul>
         <div className="links">
-          <a
-            className="project-link project-live pill-link"
-            href={project.liveLink}
-          >
-            Live Demo
-          </a>
+          {Array.isArray(project.liveLink) ? (
+            project.liveLink.map((link) => (
+              <a
+                className="project-link project-live pill-link"
+                href={link.url}
+              >
+                {link.title}
+              </a>
+            ))
+          ) : (
+            <a
+              className="project-link project-live pill-link"
+              href={project.liveLink}
+            >
+              Live Demo
+            </a>
+          )}
           <a className="project-link pill-link" href={project.githubLink}>
             View Code
           </a>
