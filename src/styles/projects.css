@@ -64,3 +64,7 @@ div.frame {
   border: 2px solid var(--clr-text);
   box-shadow: 5px 5px 0 1px var(--clr-bg-dark);
 }
+
+.project-link {
+  background-color: var(--clr-accent);
+}
